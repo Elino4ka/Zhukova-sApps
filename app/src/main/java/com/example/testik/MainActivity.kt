@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         var button3 = findViewById<Button>(R.id.button3)
 
         var questions = listOf(
-            "What are the two official languages for Android development? \n\n A) Kotlin and Java \n\n B) Java and Python \n\n C) Kotlin and Python",
-            "How do you define a function in Kotlin? \n\n A) void \n\n B) var \n\n C) function",
-            "What is a variable used for? \n\n A) To contain data \n\n B) To insert a random value \n\n C) Don't know",
-            "What does SDK stand for in Android SDK? \n\n A) Software Development Kit \n\n B) Software Development Kotlin \n\n C) Something Don't Know"
+            "Найди правильный пример \n\n A) 2 + 3 = 5 \n\n B) 1 + 1 = 3 \n\n C) 4 - 2 = 6",
+            "Где в примере допущена ошибка? \n\n A) 5 + 2 = 7 \n\n B) 7 - 1 = 3 \n\n C) 4 + 3 = 7",
+            "Сколько слогов в слове Арбуз? \n\n A) один \n\n B) два \n\n C) три",
+            "На тарелке лежали три помидора и два яблока. Сколько всего фруктов лежало на тарелке? \n\n A) 5 \n\n B) 3 \n\n C) 2"
         )
-        var rightAnswers = listOf(1, 2, 1, 1)
+        var rightAnswers = listOf(1, 2, 2, 3)
 
 
 
